@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    
     <title>FUTFLIX</title>
+    
 </head>
 <body>
     <header>
@@ -13,10 +20,9 @@
             <h2 class="logo">FUTFLIX</h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Brasileirão</a>
-                <a href="#">Copa do Brasil</a>
                 <a href="#">Libertadores</a>
                 <a href="#">Champions League</a>
+                <a href="#">Mundial de Clubes</a>
             </nav>
         </div>
     </header>
@@ -24,23 +30,47 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">Liverpool vs Real Madrid</h3>
-                <p class="descricao">Precisando da vitória, os Reds buscam jogar em cima do adversário. <br>
-                Porém, os merengues devolvem na mesma moeda e faz com que o jogo seja bem disputado.</p>
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
-                    MAIS INFORMAÇÕES
-                </button>
+                <h3 class="titulo">LIVERPOOL vs REAL MADRID</h3>
+                <p class="descricao">Liverpool e Real Madrid se enfrentam no Estádio Anfield, na Inglaterra. O duelo é válido pelas quartas de final da UEFA Champions League.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
             </div>
-            
         </div>
     </main>
 
-    <script src="https://kit.fontawesome.com/2f0848f366.js" crossorigin="anonymous"></script>
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-film" src="img/min1.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/min2.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/min3.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/min4.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/min5.jpeg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
 
+    <script src="https://kit.fontawesome.com/2f0848f366.js" crossorigin="anonymous"></script>
+    <!--owl js-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <!--setup js-->
+    <script src="js/owl/setup.js" ></script>
 </body>
 </html>

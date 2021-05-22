@@ -41,13 +41,13 @@ header nav a:hover{
 }
 
 /*filme-principal*/
-.filme-principal{
-    font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/liver_real.jpg');
 
-    min-height:500px;
-    background-size: cover;
-    background-position: center;
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/liver_real.jpg');
+
+    height: 500px;
+    background-size:cover;
 
     display: flex;
     flex-direction: column;
@@ -60,9 +60,10 @@ header nav a:hover{
     margin-bottom: 40px;
 }
 
-.titulo{
+.filme-principal .titulo{
+    margin-top: 15%;
     font-size: 40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .botao{
@@ -81,6 +82,20 @@ header nav a:hover{
     color: black;
 }
 
-.botao i {
+.botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
